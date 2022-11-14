@@ -20,7 +20,7 @@ public class WebConfig {
 
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowedOrigins(Arrays.asList("https://biblioteca-app-junior.herokuapp.com/",
-                "http://localhost:4200","https://you.server.domain.com"));
+                "http://localhost:4200","https://localhost:8080"));
         corsConfiguration.setAllowedHeaders(all);
         corsConfiguration.setExposedHeaders(all);
         corsConfiguration.setAllowedMethods(all);
